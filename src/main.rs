@@ -1,6 +1,7 @@
-mod ahorcado;
+mod threadpool;
 
 fn main() {
-    let path = "./ahorcado.txt".to_string();
-    ahorcado::jugar(&path);
+    threadpool::main();
+    //let path = "./ahorcado.txt".to_string();
+    //ahorcado::jugar(&path);
 }
